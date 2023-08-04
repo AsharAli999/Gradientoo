@@ -3,6 +3,8 @@ import './App.css';
 import CustomColorTool from './CustomColorTool';
 import Navbar from './Navbar';
 import LandingHeader from './LandingHeader';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         </h1>
         <CustomColorTool />
       </header>
+      <Analytics />
     </div>
   );
 }
